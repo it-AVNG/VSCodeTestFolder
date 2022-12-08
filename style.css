@@ -1,0 +1,46 @@
+/* set body background color */
+
+body{
+  background-color: #1f1f24;
+  /* Center the content of the page to the exact center of the medium */
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*turn on flex box for the child divs*/
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  border: 1px solid honeydew;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+h1{
+margin: 10px 20px;
+
+}
+
+ul{
+  list-style-type: none;
+  margin:0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;  
+}
+
+
+.list-items{
+text-align: center;
+background-color: azure; 
+
+}
+
