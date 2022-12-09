@@ -1,0 +1,45 @@
+body{
+  background-color: darkslategray;
+  color: antiquewhite;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+#main-heading{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2px;
+  
+  
+}
+
+.boxes{
+  flex: 1;
+  background-color: transparent;
+  color: antiquewhite;
+  border: 1px solid antiquewhite;
+
+
+  border-radius:5px;
+  height: 200px;
+  width: auto;
+  
+}
+
+.hidden-content{
+  
+  text-align: center;
+  display: none;
+}
+
+.hidden-content.reveal-btn{
+  display:block;
+}
