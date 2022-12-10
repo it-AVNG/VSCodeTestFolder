@@ -11,20 +11,22 @@ html{
   height: 100%;
 }
 
-.boxes{
+.list{
+  padding: 20px;
+  border: 3px solid antiquewhite;
+  border-radius: 5px;
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border: 3px solid antiquewhite;
-  padding: 50px;
-  border-radius: 5px;
+ 
+  gap: 2px;
 }
 
-button{
-  background-color: transparent;
-  color: antiquewhite;
-  border: 2px solid antiquewhite ;
+.list-items{
+  flex: 1 1 0;
+  text-align: center;
+  border: 1px solid antiquewhite;
   border-radius: 5px;
-  padding: 8px 16px;
+  padding: 0px 10px;
 }
