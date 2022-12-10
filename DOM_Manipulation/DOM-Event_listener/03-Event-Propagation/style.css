@@ -1,0 +1,30 @@
+html{
+  background-color:darkslategray ;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+  color: antiquewhite;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid  antiquewhite;
+  margin: 0;
+  height: 100%;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid antiquewhite;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+button{
+  background-color: transparent;
+  color: antiquewhite;
+  border: 2px solid antiquewhite ;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
