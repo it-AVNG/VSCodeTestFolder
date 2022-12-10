@@ -19,12 +19,12 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+
   gap: 2px;
 }
 
 .list-items{
-  flex: 1 1 0;
+  flex: 0 1 auto;
   text-align: center;
   border: 1px solid antiquewhite;
   border-radius: 5px;
